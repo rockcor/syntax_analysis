@@ -1,0 +1,72 @@
+//int i;
+//int i,i;
+//char i=0;
+//int main(int,char);
+//void main(char x,int i) {//表达式测试
+//	int i=5/(4+3),j=(3+7)*4,k=0,m,n;
+//	char j;
+//}
+int printf(char);
+int printf(char c)
+{
+	return 0;
+}
+int func1(int);
+int func1(int i)
+ {
+ 	return 0;
+ }
+int main () //基础测试
+{
+	short k=func1(printf(' '));//函数嵌套测试
+	char c;
+	while(!sizeof(int)+1)
+	{
+		break;
+	}
+	if(1)
+	{
+		while(1){
+			for (int j = 1,i; j <=i; j=j+1,i=i+1)
+			{	
+				if(0)i=j;
+				else if(0)
+				{
+					i=j;
+					break;
+				}else return func1(0);
+				//printf("%d\n", i);
+			}
+			break;
+		}
+	}
+	//break;
+	return 0;
+}
+
+/*int main()//单行表达式测试
+{
+	for (int i = 0; i <= 4; i=i+1)
+	{
+		for (int j = 1; j <= 9; j=j+1)
+		{
+			if (j == 5-i  || j == 5+i )
+				printf('*');
+			else
+				printf('*');
+		}
+		printf('*');
+	}
+	for (int i = 3; i >=0; i=i-1)
+	{
+		for (int j = 1; j <= 9; j=j+1)
+		{
+			if (j <= 5 - i || j == 5 + i)
+				printf('*');
+			else
+				printf('*');
+		}
+		printf('*');
+	}
+	return 0;
+}*/
